@@ -1,0 +1,32 @@
+{
+  "name": "davi_alura",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davi33-emanoel/node_1.git"
+  },
+  "author": "davi33-emanoel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davi33-emanoel/node_1/issues"
+  },
+  "homepage": "https://github.com/davi33-emanoel/node_1#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "consign": "^0.1.6",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "mysql2": "^2.3.3-rc.0",
+    "save-dev": "^0.0.1-security",
+    "sequelize": "^6.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}

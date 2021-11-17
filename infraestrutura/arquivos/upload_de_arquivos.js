@@ -5,7 +5,7 @@ module.exports = (caminho, nome_do_arquivo, callback_imagem_criada) => {
   const tipo = path.extname(caminho);
   const tipo_e_valido = tipos_validos.indexOf(tipo.substring(1))!== -1;
   if (tipo_e_valido) {
-    const novo_caminho = `./assets/imagens/${nome_do_arquivo}${tipo}`;
+    const novo_caminho = `../../assets/imagens/${nome_do_arquivo}${tipo}`;
     fs.createReadStream(caminho)
       .pipe(fs.createWriteStream(novo_caminho))
       .on("finish", () => {
